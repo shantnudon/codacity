@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main>
 
-      <TestComponent/>
-      {/* <Test/> */}
+      {/* <TestComponent/> */}
+      <Test/>
       {/* <Hero />
       <Title
         subTitle={"Our students have gotten offers from big names."}

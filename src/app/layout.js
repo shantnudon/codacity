@@ -12,13 +12,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={"bg-gradient-to-tr from-slate-300 to-slate-50"}>
-        <SessionWrapper>
+        {/* <SessionWrapper> */}
           <div className="h-16">
             <Navbar />
           </div>
           {children}
           <Footer />
-        </SessionWrapper>
+        {/* </SessionWrapper> */}
       </body>
     </html>
   );
