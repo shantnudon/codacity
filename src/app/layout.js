@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import SessionWrapper from "../../components/utilityComponents/SessionProvider";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,13 +11,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={"bg-gradient-to-tr from-slate-300 to-slate-50"}>
+<<<<<<< HEAD
         {/* <SessionWrapper> */}
+=======
+>>>>>>> 16d63a3 (next-auth removed, student registration form working fine)
           <div className="h-16">
             <Navbar />
           </div>
           {children}
           <Footer />
+<<<<<<< HEAD
         {/* </SessionWrapper> */}
+=======
+>>>>>>> 16d63a3 (next-auth removed, student registration form working fine)
       </body>
     </html>
   );

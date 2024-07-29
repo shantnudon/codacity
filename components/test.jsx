@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 
 export default function Test() {
   const [isLogin, setIsLogin] = useState(false);
-  const [students, setStudents] = useState([])
+  const [student, setStudent] = useState([])
 
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Test() {
   } = useForm();
   const onSubmit = (data) => {
     const currentUser = students.find(
-      (student)=> students.email === data.email && students.password === data.password
+      (student)=> student.email === data.email && student.password === data.password
     )
       if (currentUser){
         
